@@ -32,4 +32,4 @@ rm -rf %{pypi_name}.egg-info
 
 %files
 %{python_sitelib}/node_semver-%{version}-py*.*.egg-info
-#{python_sitelib}/semver/
+%{python_sitelib}/semver/
