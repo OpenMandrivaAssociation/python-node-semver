@@ -7,7 +7,7 @@ Summary:        Python version of node-semver
 License:        MIT
 Group:          Development/Python
 URL:            https://github.com/podhmo/python-semver
-Source0:        https://github.com/podhmo/python-semver/archive/refs/tags/%{version}/%{pypi_name}-%{version}.tar.gz
+Source0:        https://github.com/podhmo/python-semver/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python3dist(setuptools)
@@ -18,7 +18,7 @@ BuildRequires:  python3dist(setuptools)
 This package provide Python version of node-semver.
 
 %prep
-%autosetup -n %{pypi_name}-%{version}
+%autosetup -n %{name}-%{version}
 
 # Remove bundled egg-info
 rm -rf %{pypi_name}.egg-info
