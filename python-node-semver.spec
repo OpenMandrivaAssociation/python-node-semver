@@ -24,7 +24,7 @@ BuildRequires:	python%{pyver}dist(pytest)
 This package provide Python version of node-semver.
 
 %prep
-%autosetup -n %{name}-%{version}
+%autosetup -n %{name}-%{version} -p1
 
 # Remove bundled egg-info
 rm -rf %{oname}.egg-info
