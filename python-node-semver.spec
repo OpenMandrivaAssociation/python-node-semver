@@ -7,7 +7,7 @@
 
 Name:           python-node-semver
 Version:        0.9.0
-Release:        1
+Release:        2
 Summary:        Python version of node-semver
 License:        MIT
 Group:          Development/Python
